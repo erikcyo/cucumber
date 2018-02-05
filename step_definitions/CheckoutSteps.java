@@ -7,7 +7,7 @@ import implementation.Checkout;
 
 public class CheckoutSteps {
 
-    int bananaPrice = 0;
+    int bananaPrice = 40;
     Checkout checkout;
 
     @Given("^the price of a \"(.*?)\" is (\\d+)c$")
